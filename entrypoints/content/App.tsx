@@ -86,6 +86,12 @@ const App: React.FC = () => {
       targetElement.textContent = response;
     }
 
+    // remove existing placeholder
+    const placeholderDiv = document.querySelector(".msg-form__placeholder");
+    if (placeholderDiv) {
+      placeholderDiv.classList.remove("msg-form__placeholder");
+    }
+
     handleClosePopup();
   };
 
