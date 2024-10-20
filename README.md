@@ -1,3 +1,5 @@
-# WXT + React
+# LinkedIn AI Reply
 
-This template should help get you started developing with React in WXT.
+Here is a demo of LinkedIn AI Reply.
+
+[Demo Video](./sample-demo.mp4)
